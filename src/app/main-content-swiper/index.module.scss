@@ -1,0 +1,32 @@
+.icon {
+  display: inline !important;
+  margin-left: 1rem;
+}
+.swiperItem {
+  height: 40vw;
+  font-size: 17px !important;
+  padding: 0 1rem 0 1rem;
+}
+
+.swiperCard {
+  height: 40vw;
+  font-size: 17px!important;
+}
+.swiperContainer {
+  background-color: var(--dark-green);
+  padding: 20px;
+}
+.p {
+  height: 60px;
+  padding: 23px 10px;
+  display: flex;
+  align-items: center;
+  width: 30vw;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #fff;
+}
+.swiperCardImage {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}

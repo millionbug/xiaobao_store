@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-gap: 10px;
+  grid-template-rows: masonry;
+
+}
+.item-container {
+  display: block;
+  width: 100%;
+  // height: fit-content;
+}
+.content {
+  padding: 13px 20px 23px;
+}
+.p {
+  font-size: 12px;
+  color: var(--text-color);
+}
+.price {
+  font-size: 1.3rem;
+  color: var(--text-color);
+}
